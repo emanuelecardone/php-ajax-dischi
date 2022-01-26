@@ -13,7 +13,7 @@ const app = new Vue(
             // Funzione axios per richiamare l'api che mi dà gli album
             getAlbums: function(){
                 axios.get(
-                    'http://localhost:8888/php-ajax-dischi/milestone-2/server.php',
+                    'http://localhost:8888/php-ajax-dischi/bonus/server.php',
                     {
                         params: {
                             genre: this.genreFilter
