@@ -1,0 +1,25 @@
+/* Colori pagina */
+.primary_color_bg{
+    background-color: #2e3a46;
+}
+.secondary_color_bg{
+    background-color: #1e2d3b;
+}
+.tertiary_color_text{
+    color: #7b7c79;
+}
+
+/* Main */
+main{
+    min-height: calc(100vh - 100px);
+}
+
+/* Card */
+.single_card{
+    background-color: #2e3a46;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
