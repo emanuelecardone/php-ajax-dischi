@@ -7,8 +7,10 @@
             <div class="row row-cols-3 g-4">
                 <?php foreach($database as $album) { ?>
                     <div class="col">
-                        <div class="single_card">
-
+                        <div class="single_card text-center">
+                            <img src="<?php echo $album['poster'] ?>" alt="Copertina di <?php echo $album['title'] ?>" class="w-75">
+                            <h4 class="album_title text-white text-uppercase my-4"><?php echo $album['title'] ?></h4>
+                            <span class="album_author_date tertiary_color_text fs-5"><?php echo $album['author'] ?><br><?php echo $album['year'] ?></span>
                         </div>
                     </div>
                 <?php } ?>
